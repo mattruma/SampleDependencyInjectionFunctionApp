@@ -11,10 +11,10 @@ namespace SampleDependencyInjectionFunctionApp
     {
         public override void Configure(IFunctionsHostBuilder builder)
         {
-            // builder.Services.AddTransient<IToDoDataStore, ToDoSample1DataStore>();
+            builder.Services.AddTransient<IToDoDataStore, ToDoSample1DataStore>();
 
             // TODO: Uncomment the below, and comment the above to use ToDoSample2DataStore as the default implement of IToDoDataStore
-            builder.Services.AddTransient<IToDoDataStore, ToDoSample2DataStore>();
+            // builder.Services.AddTransient<IToDoDataStore, ToDoSample2DataStore>();
         }
     }
 }
