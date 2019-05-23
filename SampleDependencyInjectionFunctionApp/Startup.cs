@@ -3,7 +3,6 @@ using Microsoft.Extensions.DependencyInjection;
 using SampleDependencyInjectionFunctionApp.Data;
 
 // https://docs.microsoft.com/en-us/azure/azure-functions/functions-dotnet-dependency-injection
-// https://github.com/Azure/azure-cosmos-dotnet-v3/blob/master/Microsoft.Azure.Cosmos.Samples/CodeSamples/AzureFunctions/Startup.cs
 
 [assembly: FunctionsStartup(typeof(SampleDependencyInjectionFunctionApp.Startup))]
 namespace SampleDependencyInjectionFunctionApp
